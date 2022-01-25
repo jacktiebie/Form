@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form action="page2.html" method="get">
+        <p>
+            <label>Naam</label>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label>Email</label>
+            <input type="text" name="email" />
+        </p>
+        <p>
+            <label>Time</label>
+            <input type="time" name="time" />
+        </p>
+        <p>
+            <label>How many people?</label>
+            <select name="persons">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Same family?</label>
+            <input type="checkbox" name="family" />
+        </p>
+        <p>
+            <label>Where do you want to sit?</label>
+            <input type="radio" name="location" value="terras" /> Terras
+            <input type="radio" name="location" value="serre" /> Serre
+            <input type="radio" name="location" value="boven" /> Boven
+        </p>
+
+        <p>
+            <label>Any special diets?</label>
+            <textarea name="diets"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit!" />
+        </p>
+    </form>
+</body>
+
+</html>
